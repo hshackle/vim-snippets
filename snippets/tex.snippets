@@ -57,18 +57,24 @@ snippet gat gather(ed) environment
 # Equation
 snippet eq equation environment
 	\\begin{equation}
+		\\begin{aligned}
 		${0:${VISUAL}}
+		\\end{aligned}
 	\\end{equation}
 # Equation
 snippet eql Labeled equation environment
 	\\begin{equation}
+		\\begin{aligned}
 		\\label{eq:${2}}
 	${0:${VISUAL}}
+		\\end{aligned}
 	\\end{equation}
 # Equation
 snippet eq* unnumbered equation environment
 	\\begin{equation*}
+		\\begin{aligned}
 		${0:${VISUAL}}
+		\\end{aligned}
 	\\end{equation*}
 # Unnumbered Equation
 snippet \ unnumbered equation: \[ ... \]
